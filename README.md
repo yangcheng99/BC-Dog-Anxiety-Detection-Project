@@ -9,7 +9,7 @@ youtube-dl [OPTIONS] URL [URL...]
 ```
 
 
-We then use scenedetect to convert input videos to output images(Command line):
+We then use scenedetect to convert input videos to output images. Since we need to compare consective frames, we need to use the method "detect-content". This can be done through(Command Line):
 ```
 scenedetect -i video.mp4 detect-content save-images
 ```
