@@ -2,14 +2,14 @@
 This is the repo of the Yang and Justin's final project for computer vision class. We aim to develop a trained model for classfing whether a dog is have anxiety or not. There are 3 stages of our project: data acquisition, model training, and app development.
 
 # Data Acquisition(Yang)
-We use youtube-dl to download videos from YouTube(Command line):
+We use youtube-dl to download videos from YouTube (Command line):
 
 ```
 youtube-dl [OPTIONS] URL [URL...]
 ```
 
 
-We then use scenedetect to convert input videos to output images. Since we need to compare consective frames, we need to use the method "detect-content". This can be done through(Command Line):
+We then use scenedetect to convert input videos to output images. Since we need to compare consective frames, we need to use the method "detect-content". This can be done through (Command Line):
 ```
 scenedetect -i video.mp4 detect-content save-images
 ```
