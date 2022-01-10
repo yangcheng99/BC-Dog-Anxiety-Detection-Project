@@ -1,9 +1,19 @@
 # Yang and Justin Computer Vision Final Project
 This is the repo of the Yang and Justin's final project for computer vision class. We aim to develop a trained model for classfing whether a dog is have anxiety or not. There are 3 stages of our project: data acquisition, model training, and app development.
+#Package dependecy
+
 
 # Data Acquisition(Yang)
 Our goal is to produce a training set of images consist of normal dogs and anxious dogs. To do that, we use Youtube videos as the source of out dataset. We then convert videos into images with scene detection. Finally, we select images that have dogs inside with ResNet-50.
 
+#Package Dependencies
+```
+Python 3.5
+Pytorch
+OpenCV
+scenedetect
+tqdm
+```
 # Step 1:
 Input: URL; Output: Videos
 
