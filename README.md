@@ -24,7 +24,7 @@ scenedetect -i video.mp4 detect-content save-images
 # Step 3:
 Input: Images; Output: Images with dog inside.
 
-Finally, we select those images that have a dog inside with ResNet-50. I used pretrained ResNet_50 weights in keras to detect dog from images. If the predicted class of ResNet50 on ImageNet falls into the dog breed categories dog detector, we classify the input image as a dog image and keep it. Otherwise, we discard it from our dataset. See details in the ipynb file.
+Finally, we select those images that have a dog inside with ResNet-50. I used pretrained ResNet_50 weights in keras to detect dog from images. If the predicted class of ResNet50 on ImageNet falls into the dog breed categories, the dog detector classify the input image as a dog image and keep it. Otherwise, we discard it from our dataset. See details in the ipynb file.
 
 # Model Training(Justin)
 In progress
