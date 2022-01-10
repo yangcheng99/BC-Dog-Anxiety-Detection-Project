@@ -1,6 +1,6 @@
 # Yang and Justin Computer Vision Final Project
 This is the repo of the Yang and Justin's final project for computer vision class. We aim to develop a trained model for classfing whether a dog is have anxiety or not. There are 3 stages of our project: data acquisition, model training, and app development.
-#Package dependecy
+
 
 
 # Data Acquisition(Yang)
