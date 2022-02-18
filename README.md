@@ -1,5 +1,5 @@
-# Yang and Justin Computer Vision Final Project
-This is the repo of the Yang and Justin's final project for computer vision class. We aim to develop a trained model for classfing whether a dog is have anxiety or not. There are 3 stages of our project: data acquisition, model training, and app development.
+# Dog Anxiety Detection Project
+This is the repo of dog anxiety detection app developed by BC computer vision group.. We aim to develop a trained model for classfing whether a dog is having anxiety or not. There are 3 stages of our project: data acquisition, model training, and app development.
 
 
 
@@ -36,7 +36,7 @@ Input: Images; Output: Images with dog inside.
 
 Finally, we select those images that have a dog inside with ResNet-50. I used pretrained ResNet_50 weights in keras to detect dog from images. If the predicted class of ResNet50 on ImageNet falls into the dog breed categories, the dog detector classify the input image as a dog image and keep it. Otherwise, we discard it from our dataset. See details in the ipynb file.
 
-# Model Training(Justin)
+# Model Training
 In progress
 
 # App development
