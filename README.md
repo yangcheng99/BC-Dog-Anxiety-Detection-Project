@@ -36,7 +36,7 @@ Input: Images; Output: Images with dog inside.
 
 Finally, we select those images that have a dog inside with ResNet-50. I used pretrained ResNet_50 weights in keras to detect dog from images. If the predicted class of ResNet50 on ImageNet falls into the dog breed categories, the dog detector classify the input image as a dog image and keep it. Otherwise, we discard it from our dataset. See details in the ipynb file.
 
-# Model Training
-In progress
-
-# App development
+# Model Training(created by Huidong Hou)
+The MVP version is listed, as this is the minimum version that can predict the binary classification, anxious vs. Normal. 
+The code was written using pytorch but will be converted using tensorflow, stay tuned!
+The second generation is to have a probabalistic determination, instead of a simple binary classification, I am still developing!
